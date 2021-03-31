@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pessoas.API", "pessoas.API.csproj", "{ACE5967E-2A04-4BAC-9685-115922770A20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACE5967E-2A04-4BAC-9685-115922770A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE5967E-2A04-4BAC-9685-115922770A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE5967E-2A04-4BAC-9685-115922770A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE5967E-2A04-4BAC-9685-115922770A20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D72B74B8-8061-408C-B21D-3C3154621D18}
+	EndGlobalSection
+EndGlobal
