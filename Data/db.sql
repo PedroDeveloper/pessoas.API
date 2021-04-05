@@ -1,6 +1,7 @@
-﻿create table dbo.pessoa(
+﻿create table dbo.task(
 id int identity (1,1),
 name varchar (250),
-surname varchar (150),
-email varchar (50),
-idade int)
+tarefa varchar (150),
+feito int (2),
+dia varchar (20)
+)

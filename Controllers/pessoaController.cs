@@ -31,7 +31,7 @@ namespace pessoas.API.Controllers
             try
             {
                 string query = @"
-                   select id, name, surname, email, idade from dbo.pessoa";
+                   select id, name, tarefa, feito, dia from dbo.task";
 
                 string sqlDataSoucer = _configuration.GetConnectionString("dataConnection");
                 SqlDataReader myReader;
@@ -78,7 +78,7 @@ namespace pessoas.API.Controllers
             try
             {
                 string query = @"
-                   select *from dbo.pessoa where id =" + id + @"";
+                   select *from dbo.task where id =" + id + @"";
                 
                 string sqlDataSoucer = _configuration.GetConnectionString("dataConnection");
                 SqlDataReader myReader;
@@ -124,7 +124,7 @@ namespace pessoas.API.Controllers
           
             try
             {
-                string query = @"select *from dbo.pessoa where name LIKE '%"+name+@"%'";
+                string query = @"select *from dbo.task where name LIKE '%"+name+@"%'";
 
 
                 string sqlDataSoucer = _configuration.GetConnectionString("dataConnection");
@@ -181,9 +181,9 @@ namespace pessoas.API.Controllers
             try
             {   
                 //verificar se id existe no banco
-                string query1 = @"select *from dbo.pessoa where id =" + id + @"";
+                string query1 = @"select *from dbo.task where id =" + id + @"";
 
-                string query = @"delete from dbo.pessoa where id ="+id+@"";
+                string query = @"delete from dbo.task where id ="+id+@"";
 
 
                 
@@ -242,14 +242,15 @@ namespace pessoas.API.Controllers
 
             try
             {
-                string query = @"UPDATE dbo.pessoa SET
+                string query = @"UPDATE dbo.task SET
 
                                              name = '" + p.name+@"'
-                                            , surname ='"+p.surname+@"'
-                                            , email ='"+p.email+@"'
-                                            , idade ="+p.idade+@"                                   
+                                            , tarefa ='"+p.tarefa+@"'
+                                            , feito ='"+p.feito+ @"'
+                                            , dia ='" +p.dia+ @"
+                                                                            
 
-                                            WHERE ID ="+p.id+@"";
+                                            WHERE ID =" + p.id+@"";
 
                 DataTable table = new DataTable();
                 string sqlDataSoucer = _configuration.GetConnectionString("dataConnection");
@@ -286,19 +287,21 @@ namespace pessoas.API.Controllers
 
             try
             {
-                string query = @"INSERT INTO dbo.pessoa
+                string query = @"INSERT INTO dbo.task
                                           ( 
                                               name
-                                             ,surname
-                                             ,email
-                                             ,idade
+                                             ,tarefa
+                                             ,feito
+                                             ,dia
+                                             
                                           )
                                          VALUES
                                           (
                                             '"+ p.name + @"'
-                                            , '" + p.surname + @"'
-                                            , '" + p.email + @"'
-                                            , " + p.idade + @"                               
+                                            , '" + p.tarefa + @"'
+                                            , " + p.feito + @"
+                                            , '" + p.dia + @"'
+                                                                        
                                            
                                             )";
 
