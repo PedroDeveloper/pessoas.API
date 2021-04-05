@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H9wFDQIaiusRlb7e/quVa5hvshK4iP8NqfQTPNvDVXYtN8Ijgru8xtQY5v4Eevpl8Vubucjbs0KUHgfSL6FaRg==",
+  "dgSpecHash": "jyDma6Lv0eoei2cYyUp1qt6cdpWqVkUoOueAQXd4iiXvu7aG7qG6heGpz718GsY+UCkjHQRYrPpBOyI5BIO94g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pedro\\source\\repos\\pessoas.API\\pessoas.API.csproj",
+  "projectFilePath": "E:\\Study\\. NET\\pessoas.API\\pessoas.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pedro\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.9\\microsoft.aspnetcore.jsonpatch.3.1.9.nupkg.sha512",
     "C:\\Users\\Pedro\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.9\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.9.nupkg.sha512",

@@ -9,9 +9,10 @@ namespace pessoas.API.Models
     {
         public int id { get; set; }
         public string name { get; set; }
-        public string  surname { get; set; }
-        public string  email { get; set; }
-        public int idade { get; set; }
+        public string  tarefa { get; set; }
+        public string  feito { get; set; }
+        public string dia { get; set; }
+
 
     }
 }

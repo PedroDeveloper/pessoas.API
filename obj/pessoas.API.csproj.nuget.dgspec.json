@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pedro\\source\\repos\\pessoas.API\\pessoas.API.csproj": {}
+    "E:\\Study\\. NET\\pessoas.API\\pessoas.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pedro\\source\\repos\\pessoas.API\\pessoas.API.csproj": {
+    "E:\\Study\\. NET\\pessoas.API\\pessoas.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pedro\\source\\repos\\pessoas.API\\pessoas.API.csproj",
+        "projectUniqueName": "E:\\Study\\. NET\\pessoas.API\\pessoas.API.csproj",
         "projectName": "pessoas.API",
-        "projectPath": "C:\\Users\\Pedro\\source\\repos\\pessoas.API\\pessoas.API.csproj",
+        "projectPath": "E:\\Study\\. NET\\pessoas.API\\pessoas.API.csproj",
         "packagesPath": "C:\\Users\\Pedro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pedro\\source\\repos\\pessoas.API\\obj\\",
+        "outputPath": "E:\\Study\\. NET\\pessoas.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
